@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    background-color: #757575;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+section > p,section>h1,section>a{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+ul {
+    list-style-type: none;
+    color: #232323;
+    
+}
+li{
+    float:left;
+}
+.container {
+    display: grid;
+}
+
+.menu {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    justify-content: center;
+    gap: 0px;
+    height: auto;
+    text-align: center;
+}
+
+a,
+a:link {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: black;
+    
+    
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+a:hover {
+    color: white;
+}
+
+#formacaoEducacional{
+    background-color: #757575;
+}
+
+#portifolio{
+    background-color: #505050 ;
+}
+
+#contato{
+    background-color: #252525
+    
+}
+
+.letraBranca{
+    color: rgb(255, 255, 255);
+}
